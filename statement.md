@@ -18,6 +18,16 @@ func sayHello() {
 ```
 :::
 
+# Next exercise
+
+?[What is the answer to Life, the Universe and Everything?]
+-[ ] ```swift
+print("hello")
+```
+-[ ] 'let a = 2`
+-[x] Easy, this is 42
+-[ ] Peace & Love
+
 # Advanced usage
 
 If you want a more complex example (external libraries, viewers...), use the [Advanced Swift template](https://tech.io/select-repo/575)
