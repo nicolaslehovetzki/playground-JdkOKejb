@@ -10,7 +10,6 @@ print("Hello World!")
 Résultat attendu: Hello
 Si vous avez réussi, vous pouvez continuer
 
-# Corrigé
 ::: Corrigé
 ```
 func sayHello() {
