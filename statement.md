@@ -11,7 +11,7 @@ Résultat attendu: Hello
 Si vous avez réussi, vous pouvez continuer
 
 ::: Corrigé
-```
+```swift runnable
 func sayHello() {
     print("hello")
 }
