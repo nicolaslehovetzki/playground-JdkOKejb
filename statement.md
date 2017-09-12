@@ -26,6 +26,8 @@ func sayHello() {
 -[x] Easy, this is 42
 -[ ] Peace & Love
 
+`let c = 4`
+
 # Advanced usage
 
 If you want a more complex example (external libraries, viewers...), use the [Advanced Swift template](https://tech.io/select-repo/575)
