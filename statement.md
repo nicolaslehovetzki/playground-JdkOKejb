@@ -21,10 +21,8 @@ func sayHello() {
 # Next exercise
 
 ?[What is the answer to Life, the Universe and Everything?]
--[ ] ```swift
-print("hello")
-```
--[ ] 'let a = 2`
+-[ ] `let b = 3`
+-[ ] `let a = 2`
 -[x] Easy, this is 42
 -[ ] Peace & Love
 
