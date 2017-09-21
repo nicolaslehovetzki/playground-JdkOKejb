@@ -6,25 +6,25 @@ Pour voir le corrigé, il suffit de déplier le bloc correspondant.
 Exercices sur les `Enum`.
 
 ## `enum` et `struct`
-1) Créer un `struct` `Eleve`
+1. Créer un `struct` `Eleve`
 
 Avec les propriétés : nom, age, sexe, niveau
 
 Valeurs possibles pour le niveau : cp, ce1, ce2, cm1, cm2
 Valeurs possibles pour le sexe : garcon, fille
 
-2) Créez quelques élèves
+2. Créez quelques élèves
 
 Par exemple :
 * toto, 6 ans, garcon, cp
 * kiki, 8 ans, fille, ce2
 * lolo, 9 ans, garcon cp
 
-3) Mettre ces élèves dans un tableau
+3. Mettre ces élèves dans un tableau
 
-4) Ecrire une fonction qui prend en entree un tableau d'eleve et un niveau : et qui renvoie un tableau composé des élèves de ce niveau
+4. Ecrire une fonction qui prend en entree un tableau d'eleve et un niveau : et qui renvoie un tableau composé des élèves de ce niveau
 
-5) L'appliquer au tableau eleves pour tester
+5. L'appliquer au tableau eleves pour tester
 
 ::: Indices
 * Utilisez des `enum` pour le sexe et le niveau
