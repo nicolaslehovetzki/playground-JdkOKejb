@@ -49,7 +49,22 @@ if message != nil {
 ```
 :::
 
+### Exercice 3
+En utilisant une boucle, remplir un tableau comme ceci [10, 9, 8, 7, 6, 5, 4, 3, 2, 1].
 
+```swift runnable
+// Vous pouvez taper votre code ici
+
+```
+
+::: Corrigé
+var numbers = [Int]()
+for index in 1...10 {
+    numbers.append(11 - index)
+}
+print(numbers)
+```
+:::
 
 ### Quizz
 
