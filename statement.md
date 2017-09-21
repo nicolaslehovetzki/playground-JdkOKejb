@@ -1,11 +1,28 @@
 # Welcome!
+
+### Exercice 1 
+Ecrire une fonction qui prend en entrée un tableau d'entiers et renvoie un tableau constitué des nombres positifs de ce tableau
+
+```swift runnable
+// Vous pouvez taper votre code ici
+
+```
+
+::: Corrigé
+```swift runnable
+func sayHello() {
+    print("hello")
+}
+```
+:::
+
+
+
 Ecrire une fonction `sayHello` :
 
 
 
-```swift runnable
-print("Hello World!")
-```
+
 
 Résultat attendu: Hello
 Si vous avez réussi, vous pouvez continuer
