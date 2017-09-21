@@ -18,9 +18,9 @@ Valeurs possibles pour le sexe : garcon, fille
 2. Créez quelques élèves
 
 Par exemple :
-* toto, 6 ans, garcon, cp
-* kiki, 8 ans, fille, ce2
-* lolo, 9 ans, garcon cp
+    * toto, 6 ans, garcon, cp
+    * kiki, 8 ans, fille, ce2
+    * lolo, 9 ans, garcon cp
 
 3. Mettre ces élèves dans un tableau
 
