@@ -66,6 +66,7 @@ print(numbers)
 ```
 :::
 
+
 ### Quizz
 
 ?[Vous avez aimé ?]
