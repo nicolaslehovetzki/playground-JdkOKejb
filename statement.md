@@ -1,4 +1,4 @@
-# Welcome!
+# Petits exercices de Swift
 
 ### Exercice 1 
 Ecrire une fonction qui prend en entrée un tableau d'entiers et renvoie un tableau constitué des nombres positifs de ce tableau
@@ -10,41 +10,26 @@ Ecrire une fonction qui prend en entrée un tableau d'entiers et renvoie un tabl
 
 ::: Corrigé
 ```swift runnable
-func sayHello() {
-    print("hello")
+func filterPositives(numbers:[Int]) -> [Int] {
+    var output = [Int]()
+    
+    for number in numbers {
+        if number >= 0 {
+            output.append(number)
+        }
+    }
+    return output
 }
+print(filterPositives(numbers: [4, 8, 0, -4, 7]))
+
 ```
 :::
 
 
+### Quizz
 
-Ecrire une fonction `sayHello` :
-
-
-
-
-
-Résultat attendu: Hello
-Si vous avez réussi, vous pouvez continuer
-
-::: Corrigé
-```swift runnable
-func sayHello() {
-    print("hello")
-}
-```
-:::
-
-# Next exercise
-
-?[What is the answer to Life, the Universe and Everything?]
--[ ] `let b = 3`
--[ ] `let a = 2`
--[x] Easy, this is 42
--[ ] Peace & Love
+?[Vous avez aimé ?]
+-[x] Yes, trop cool
+-[ ] Non
 
 `let c = 4`
-
-# Advanced usage
-
-If you want a more complex example (external libraries, viewers...), use the [Advanced Swift template](https://tech.io/select-repo/575)
