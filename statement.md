@@ -67,6 +67,24 @@ print(numbers)
 ```
 :::
 
+### Exercice 4
+Ecrire une fonction qui prend en entrée un entier, et renvoie true si le nombre est divisible par 2 ou 3 et false sinon.
+Rappel : pour savoir si a est divisible par 2, le test est a % 2 == 0
+
+```swift runnable
+// Vous pouvez taper votre code ici
+
+```
+
+::: Corrigé
+```swift runnable
+func isDivisibleBy2And3(number: Int) -> Bool {
+    return number % 2 == 0 || number % 3 == 0
+}
+print("4 : \(isDivisibleBy2And3(number: 4))")
+print("5 : \(isDivisibleBy2And3(number: 5))")
+```
+:::
 
 ### Quizz
 
