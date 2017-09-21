@@ -1,5 +1,4 @@
-title: Simple Swift template
-
+title: Petits exercices de Swift
 plan:
-  - title: Swift Snippet
-    statement: statement.md
+- title: Swift Snippet
+  statement: statement.md
