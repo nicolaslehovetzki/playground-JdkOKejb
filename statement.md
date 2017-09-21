@@ -58,6 +58,7 @@ En utilisant une boucle, remplir un tableau comme ceci [10, 9, 8, 7, 6, 5, 4, 3,
 ```
 
 ::: Corrigé
+```
 var numbers = [Int]()
 for index in 1...10 {
     numbers.append(11 - index)
