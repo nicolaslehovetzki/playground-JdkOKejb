@@ -82,11 +82,11 @@ Rappel : pour savoir si a est divisible par 2, le test est a % 2 == 0
 
 ::: Corrigé
 ```swift runnable
-func isDivisibleBy2And3(number: Int) -> Bool {
+func isDivisibleBy2Or3(number: Int) -> Bool {
     return number % 2 == 0 || number % 3 == 0
 }
-print("4 : \(isDivisibleBy2And3(number: 4))")
-print("5 : \(isDivisibleBy2And3(number: 5))")
+print("4 : \(isDivisibleBy2Or3(number: 4))")
+print("5 : \(isDivisibleBy2Or3(number: 5))")
 ```
 :::
 
