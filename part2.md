@@ -13,7 +13,9 @@ Avec les propriétés : nom, age, sexe, niveau
 Valeurs possibles pour le niveau : cp, ce1, ce2, cm1, cm2
 Valeurs possibles pour le sexe : garcon, fille
 
-2) Créez quelques élèves, par exemple :
+2) Créez quelques élèves
+
+Par exemple :
 * toto, 6 ans, garcon, cp
 * kiki, 8 ans, fille, ce2
 * lolo, 9 ans, garcon cp
