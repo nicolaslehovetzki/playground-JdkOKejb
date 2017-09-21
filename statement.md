@@ -1,7 +1,7 @@
 # Petits exercices de Swift
 
 ### Exercice 1 
-Ecrire une fonction qui prend en entrée un tableau d'entiers et renvoie un tableau constitué des nombres positifs de ce tableau
+Ecrire une fonction qui prend en entrée un tableau d'entiers et renvoie un tableau constitué des nombres positifs de ce tableau.
 
 ```swift runnable
 // Vous pouvez taper votre code ici
@@ -25,6 +25,31 @@ print(filterPositives(numbers: [4, 8, 0, -4, 7]))
 ```
 :::
 
+### Exercice 2
+Ecrire une fonction qui prend en entrée le nom de l'utilisateur, son age et renvoie une string : "bienvenue ..." si la personne est majeure et nil si la personne est mineure.
+
+```swift runnable
+// Vous pouvez taper votre code ici
+
+```
+
+::: Corrigé
+```swift runnable
+func getWelcomeMessage(name: String, age: Int) -> String? {
+    if age >= 18 {
+        return "Bienvenue \(name)"
+    } else {
+        return nil
+    }
+}
+let message = getWelcomeMessage(name: "Toto", age: 25)
+if message != nil {
+    print(message as Any)
+}
+```
+:::
+
+
 
 ### Quizz
 
@@ -32,4 +57,3 @@ print(filterPositives(numbers: [4, 8, 0, -4, 7]))
 -[x] Yes, trop cool
 -[ ] Non
 
-`let c = 4`
