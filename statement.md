@@ -1,6 +1,6 @@
 # Petits exercices de Swift
 Voici une petite série d'exercices de Swift.
-Vous pouvez écrire votre code dans le bloc prévu à cet effet et tester le résultat en cliquant sur *Run*.
+Vous pouvez écrire votre code dans le bloc prévu à cet effet et tester le résultat en cliquant sur **Run**.
 Pour voir le corrigé, il suffit de déplier le bloc correspondant.
 
 
@@ -73,7 +73,7 @@ print(numbers)
 
 ### Exercice 4
 Ecrire une fonction qui prend en entrée un entier, et renvoie true si le nombre est divisible par 2 ou 3 et false sinon.
-Rappel : pour savoir si a est divisible par 2, le test est a % 2 == 0
+Rappel : pour savoir si a est divisible par 2, le test est `a % 2 == 0`
 
 ```swift runnable
 // Vous pouvez taper votre code ici
